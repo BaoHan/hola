@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>体质测试报告 | 健康银行</title>
+
+    <!-- Bootstrap -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="report-4.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--这里是菜单-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="" class="back" src="img/back.png">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href='#' onclick="javascript:window.print()">预览并打印</a> </li>
+            <li><a href="#">下载</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <!--startprint-->
+    <div class="top">    	
+		    <div class="left">
+		          <img src="img/logo.jpg" alt="健康银行">
+		    </div>
+		    <div class="right">
+		          <p>
+		            地址：无锡市锡山区华夏中路12号<br/>
+		            电话：400 811 7078<br/>
+		            网址：www.healthbanca.com
+		          </p>
+		    </div>
+	    </div>
+    <div class="content">
+      <div class="container baogao">
+	      	<div class="inner">
+		        <h3 class="title">体质测试报告</h3>
+		        <p><b>报告编号：1982749084092</b><span class="pull-right">报告生成日期：<span id="data-checktime"></span></span></p>
+		        <hr>
+            <div class="row">
+              <div class="col-xs-12">
+                  <table  class="table table-hover table-condensed table-bordered">
+                    <thead>
+                      <tr>
+                        <td colspan="4">基本信息</td>
+                      </tr>
+                    </thead>
+                    <tbody class="odd">
+                      <tr>
+                        <td>姓名：王培娜</td>
+                        <td>性别：女</td>
+                        <td>年龄：22</td>
+                        <td>组别：成年人</td>
+                      </tr>
+                    </tbody>
+                  </table>
+				  
+				  <div class="table-responsive">
+                  <table  class="table table-hover table-condensed table-bordered">
+                    <thead>
+                      <tr>
+                        <td>测试项目</td>
+                        <td>测量数据</td>
+                        <td>单项得分</td>
+                      </tr>
+                    </thead>
+                    <tbody class="theFirst">
+                      <tr>
+                        <td>身高：/体重：</td>
+                        <td>151厘米/45公斤</td>
+                        <td>5.0分</td>
+                      </tr>
+                      <tr>
+                        <td>成人肺活量(500-7000ml)</td>
+                        <td>2400ml</td>
+                        <td>3.0分</td>
+                      </tr>
+                      <tr>
+                        <td>成人台阶指数(20-50)</td>
+                        <td>2400ml</td>
+                        <td>3.0分</td>
+                      </tr>
+                      <tr>
+                        <td>成人握力(10-70)</td>
+                        <td>2400ml</td>
+                        <td>3.0分</td>
+                      </tr>
+                       <tr>
+                        <td>成人做体前屈</td>
+                        <td>2400ml</td>
+                        <td>3.0分</td>
+                      </tr>
+                      <tr>
+                        <td>成人反映</td>
+                        <td>2400ml</td>
+                        <td>3.0分</td>
+                      </tr>
+                      <tr>
+                        <td>成人闭眼单脚站立</td>
+                        <td>2400ml</td>
+                        <td>3.0分</td>
+                      </tr>
+                      <tr>
+                        <td>成人纵跳</td>
+                        <td>2400ml</td>
+                        <td>3.0分</td>
+                      </tr>
+                      <tr>
+                        <td>成年女人仰卧起坐</td>
+                        <td>2400ml</td>
+                        <td>3.0分</td>
+                      </tr>
+                    </tbody>
+                  </table>
+				  </div><div class="table-responsive">
+                  <table  class="table table-bordered table-fixed" style="">
+                    <thead>
+                      <tr>
+                        <td>综合评价</td>
+                        <td>营养饮食建议</td>
+                      </tr>
+                    </thead>
+                    <tbody class="" >
+                      <tr>
+                        <td>
+                          <div style="">
+                            <canvas id="canvas" height="400" width="400"></canvas>
+                          </div>  
+                        </td>
+                        <td><p>虽然可以直接使用 Bootstrap 提供的 CSS 样式表，不要忘记 Bootstrap 的源码是基于最流行的 CSS 预处理脚本 - Less 和 Sass 开发的。你可以采用预编译的 CSS 文件快速开发，也可以从源码定制自己需要的样式。</p><p>虽然可以直接使用 Bootstrap 提供的 CSS 样式表，不要忘记 Bootstrap 的源码是基于最流行的 CSS 预处理脚本 - Less 和 Sass 开发的。你可以采用预编译的 CSS 文件快速开发，也可以从源码定制自己需要的样式。</p></td>
+                      </tr>
+                    </tbody>
+                  </table>  
+				  </div><div class="table-responsive">
+                  <table  class="table table-hover table-condensed table-bordered">
+                    <thead>
+                      <tr>
+                        <td colspan="4">运动建议</td>
+                      </tr>
+                      <tr>
+                        <td>测试项目</td>
+                        <td>测试结果</td>
+                        <td>建议</td>
+                        <td>运动处方</td>
+                      </tr>
+                    </thead>
+                    <tbody class="cc" >
+                      <tr>
+                        <td>身高、体重</td>
+                        <td>正常体重</td>
+                        <td>恭喜你，您的体重正常，建议您保持适宜的运动量，继续维持此体重。</td>
+                        <td><a href="">详情</a></td>
+                      </tr>
+                      <tr>
+                        <td>肺活量</td>
+                        <td>较差</td>
+                        <td>您的肺活量评分较低，这可能与您的肺脏容积和扩张力有关，建议您加强有氧运动，但是注意要采取循序渐进的方式，提高心扉功能，改善身体技能，从而促进身体健康。</td>
+                        <td><a href="">详情</a></td>
+                      </tr>
+                      <tr>
+                        <td>坐位体前屈</td>
+                        <td>较差</td>
+                        <td>您的坐位体前屈的分数较低，提示您躯干和下肢的柔韧性下降，建议您进行适当的柔韧性联系，提高柔韧性。</td>
+                        <td><a href="">详情</a></td>
+                      </tr>
+                      <tr>
+                        <td>纵跳</td>
+                        <td>较差</td>
+                        <td>您的总跳高度娇小，提示您下肢的爆发力娇小，建议您进行适当的力量联系，提高肌肉力量。</td>
+                        <td><a href="">详情</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+				  </div>  
+              </div>
+              
+            </div>
+	         
+	    	</div>
+    	</div>		
+    </div>
+    <!--endprint--> 
+	 <footer>本报告由健康银行提供技术支持</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript">
+          var radarChartData = {
+    labels: ["仰卧起坐", "选择反应时", "身高体重指数", "肺活量", "台阶指数", "坐位体前屈", "握力","纵跳","闭眼单脚站立"],
+    datasets: [
+      {
+        label: "综合评价",
+        fillColor: "rgba(95,187,108,0.2)",
+        strokeColor: "rgba(95,187,108,1)",
+        pointColor: "rgba(95,187,108,1)",
+        pointStrokeColor: "#fff",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: "rgba(95,187,108,1)",
+        data: [4,3,4,5,4,2,4,3,5]
+      }
+    ]
+  };
+  window.onload = function(){
+    window.myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData, {
+      responsive: true
+    });
+  }
+
+    </script>
+</body>      

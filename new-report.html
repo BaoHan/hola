@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>新建健康计划 | 健康银行</title>
+
+    <!-- Bootstrap -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--这里是菜单-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="" class="back" src="img/back.png">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+           
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <div class="content">
+      <div class="container plan">
+      	<div class="neirong">	
+      		<div class="inner">
+      			<h3>创建计划</h3>
+      			<hr>
+      			<form  class="form-horizontal">
+      				<div class="form-group">
+					    <label for="inputEmail3" class="col-sm-2 control-label">计划名称</label>
+					    <div class="col-sm-10">
+					      <input type="text" value="健康计划No.1" class="form-control" id="inputEmail3" placeholder="Email">
+					    </div>
+					</div>
+					<div class="form-group">
+					    <label for="inputEmail3" class="col-sm-2 control-label">开始日期</label>
+					    <div class="col-sm-10">
+					      <input type="date" value="" class="form-control" id="inputEmail3" placeholder="">
+					    </div>
+					</div>
+					<div class="form-group">
+					    <label for="inputEmail3" class="col-sm-2 control-label">结束日期</label>
+					    <div class="col-sm-10">
+					      <input type="date" value="" class="form-control" id="inputEmail3" placeholder="">
+					    </div>
+					</div>
+					<div class="form-group">
+					    <label for="inputEmail3" class="col-sm-2 control-label">封面图片</label>
+					    <div class="col-sm-10 fm-selector">
+					      	<label class="col-sm-3">
+							  <input type="radio" name="inlineRadioOptions" id="" value="bg1" checked="checked"><img class="img-responsive" src="img/bg-thumb.jpg">
+							</label>
+							<label class="col-sm-3">
+							  <input type="radio" name="inlineRadioOptions" id="" value="bg2"><img class="img-responsive" src="img/bg2-thumb.jpg">
+							</label>
+							<label class="col-sm-3">
+							  <input type="radio" name="inlineRadioOptions" id="" value="bg3"><img class="img-responsive" src="img/bg3-thumb.jpg">
+							</label>
+							<label class="col-sm-3">
+							  <input type="radio" name="inlineRadioOptions" id="" value="bg4"><img class="img-responsive" src="img/bg4-thumb.jpg">
+							</label>
+							<label class="col-sm-3">
+							  <input type="radio" name="inlineRadioOptions" id="" value="bg5"><img class="img-responsive" src="img/bg5-thumb.jpg">
+							</label>
+							<label class="col-sm-3">
+							  <input type="radio" name="inlineRadioOptions" id="" value="bg6"><img class="img-responsive" src="img/bg6-thumb.jpg">
+							</label>
+					    </div>
+					</div>
+				</form>
+					<hr>
+					<h4>参与计划的成员 <div class="pull-right"><a class="btn-link" data-toggle="modal" data-target="#addMember">+ 添加成员</a></div></h4>
+					<div class="new-members">
+						<table id="member" class="table table-bordered" cellspacing="0" width="100%">
+			              <thead>
+			                  <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>姓名</th>
+			                      <th>性别</th>
+			                      <th>年龄</th>
+			                      <th>手机号</th>
+			                      <th>所属组群</th>
+			                      <th>工号</th>
+			                      <th>操作</th>
+			                  </tr>
+			              </thead>
+			              <tfoot>
+			                  <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>姓名</th>
+			                      <th>性别</th>
+			                      <th>年龄</th>
+			                      <th>手机号</th>
+			                      <th>所属组群</th>
+			                      <th>工号</th>
+			                      <th>操作</th>
+			                  </tr>
+			              </tfoot>
+			              <tbody>
+			                  <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>李小明</th>
+			                      <th>男</th>
+			                      <th>27岁</th>
+			                      <th>18661033100</th>
+			                      <th>会计部</th>
+			                      <th>XA-129874892</th>
+			                      <th><a href="">编辑</a> | <a href="">删除</a></th>
+			                  </tr>
+			                   <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>李小明</th>
+			                      <th>男</th>
+			                      <th>27岁</th>
+			                      <th>18661033100</th>
+			                      <th>会计部</th>
+			                      <th>XA-129874892</th>
+			                      <th><a href="">编辑</a> | <a href="">删除</a></th>
+			                  </tr>
+			                   <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>李小明</th>
+			                      <th>男</th>
+			                      <th>27岁</th>
+			                      <th>18661033100</th>
+			                      <th>会计部</th>
+			                      <th>XA-129874892</th>
+			                      <th><a href="">编辑</a> | <a href="">删除</a></th>
+			                  </tr>
+			                   <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>李小明</th>
+			                      <th>男</th>
+			                      <th>43岁</th>
+			                      <th>18661033100</th>
+			                      <th>会计部</th>
+			                      <th>XA-129874892</th>
+			                      <th><a href="">编辑</a> | <a href="">删除</a></th>
+			                  </tr>
+			                   <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>李小明</th>
+			                      <th>男</th>
+			                      <th>27岁</th>
+			                      <th>18661033100</th>
+			                      <th>会计部</th>
+			                      <th>XA-129874892</th>
+			                      <th><a href="">编辑</a> | <a href="">删除</a></th>
+			                  </tr>
+			                   <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>李小明</th>
+			                      <th>女</th>
+			                      <th>21岁</th>
+			                      <th>18661033100</th>
+			                      <th>会计部</th>
+			                      <th>XA-129874892</th>
+			                      <th><a href="">编辑</a> | <a href="">删除</a></th>
+			                  </tr>
+			                   <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>李小明</th>
+			                      <th>男</th>
+			                      <th>22岁</th>
+			                      <th>18661033100</th>
+			                      <th>会计部</th>
+			                      <th>XA-129874892</th>
+			                      <th><a href="">编辑</a> | <a href="">删除</a></th>
+			                  </tr>
+			                   <tr>
+			                      <th><input type="checkbox"></th>
+			                      <th>李小明</th>
+			                      <th>男</th>
+			                      <th>21岁</th>
+			                      <th>18661033100</th>
+			                      <th>会计部</th>
+			                      <th>XA-129874892</th>
+			                      <th><a href="">编辑</a> | <a href="">删除</a></th>
+			                  </tr>
+			              </tbody>
+			            </table> 
+					</div>
+				<hr>
+				<h4>项目选择</h4>
+				<div class="report-select t3">
+      				<div class="reports">
+      					<div class="col-md-2">
+      						综合性报告<br/>
+      					</div>
+      					<div class="col-md-10 row">
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c1">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c2">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c3">
+	      								综合健康风险评估
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c4">
+	      								肺癌健康风险预测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c1">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c2">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c3">
+	      								综合健康风险评估
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c4">
+	      								肺癌健康风险预测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c1">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c2">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c3">
+	      								综合健康风险评估
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c4">
+	      								肺癌健康风险预测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      					</div>
+      				</div>
+      				<div class="reports">
+      					<div class="col-md-2">
+      						体适能设备<br/>
+      					</div>
+      					<div class="col-md-10 row">
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c1">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c2">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c3">
+	      								综合健康风险评估
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c4">
+	      								肺癌健康风险预测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c2">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c3">
+	      								综合健康风险评估
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      					</div>
+      			</div>	
+      			<div class="reports">
+      					<div class="col-md-2">
+      						外接设备<br/>
+      					</div>
+      					<div class="col-md-10 row">
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c1">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c2">
+	      								成年人心理评测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c3">
+	      								综合健康风险评估
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      						<div class="ssr col-sm-4 deactive">
+      							<div class="report">
+	      							<div class="main c4">
+	      								肺癌健康风险预测
+	      							</div>
+	      							<div class="footer">
+	      								
+	      							</div>
+      							</div>
+      						</div>
+      					</div>
+      			</div>
+      			<button class="btn btn-lg btn-block btn-success">创建计划</button>
+      		</div>
+      	</div>
+      </div>
+
+    </div>
+	 <footer>本报告由健康银行提供技术支持</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/datatables.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#member').DataTable({
+              "language": {
+                  "lengthMenu": "每页显示 _MENU_ 条",
+                  "zeroRecords": "没有内容",
+                  "info": "显示 _PAGE_页 共 _PAGES_ 页",
+                  "infoEmpty": "没有记录",
+                  "infoFiltered": "(filtered from _MAX_ total records)"
+              }
+            });
+            $('.ssr').click(function(){
+            	$(this).toggleClass("deactive");
+            	// alert('aa');
+            })
+        } );
+    </script>
+</body>      

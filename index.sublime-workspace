@@ -1,0 +1,422 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"img",
+				"img	Tag"
+			],
+			[
+				"s",
+				"src	Attr"
+			],
+			[
+				"c",
+				"content"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ban",
+				"background-image"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"b",
+				"inline-block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"he",
+				"height〔function〕"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"marg-",
+				"margin-top"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"backgro",
+				"background-image: 〔property〕"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"dis",
+				"display: 〔property〕"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"res",
+				"resources"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"blo",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/encor/Desktop/健康银行/admin/style.css",
+		"/C/Users/encor/Desktop/好日子app/app/jade/index.jade",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/encor/Desktop/eulerspace/Euler/css/style.css",
+		"/C/Users/encor/Desktop/eulerspace/Euler/js/scripts.js",
+		"/C/Users/encor/Desktop/eulerspace/Euler/index.html",
+		"/C/Users/encor/Desktop/hosts",
+		"//ENCOREBAO/web/watch/index.html",
+		"//ENCOREBAO/web/watch/style.css",
+		"//ENCOREBAO/web/watch/js/animate.min.css",
+		"/C/Users/encor/Desktop/fullPage.js-master/examples/apple.html",
+		"/C/Users/encor/Desktop/健康银行/手表页面/index.html",
+		"/C/Users/encor/Desktop/parallax-master/examples/styles/styles.css",
+		"/C/Users/encor/Desktop/健康银行/手表页面/style.css",
+		"/C/Users/encor/Desktop/fullPage.js-master/examples/examples.js",
+		"/C/Users/encor/Desktop/fullPage.js-master/examples/examples.css",
+		"/C/Users/encor/Desktop/fullPage.js-master/dist/jquery.fullpage.min.css",
+		"/C/Users/encor/Desktop/parallax-master/examples/jquery.html",
+		"//ENCOREBAO/web/wordpress/wp-config.php",
+		"//ENCOREBAO/web/wordpress/php.ini",
+		"//ENCOREBAO/web/wordpress/.htaccess",
+		"/C/Users/encor/Desktop/ness/header.php",
+		"/C/Users/encor/Desktop/ness/functions.php",
+		"/C/Users/encor/Desktop/ness/library/core.php",
+		"/C/Users/encor/Desktop/ness/library/mobile-detect-class.php",
+		"//MACBOOKPRO-F5F1/htdocs/kk/style.css",
+		"//MACBOOKPRO-F5F1/htdocs/kk/js/commen.js",
+		"//ENCOREBAO/web/json/feeds-list.json",
+		"//ENCOREBAO/web/json/feed.json",
+		"//ENCOREBAO/web/style.css",
+		"//ENCOREBAO/web/json/person.json",
+		"//ENCOREBAO/web/js/feed.js",
+		"//ENCOREBAO/web/index.html",
+		"//ENCOREBAO/web/json/habit.json",
+		"//MACBOOKPRO-F5F1/htdocs/kk/feeds.html",
+		"/C/Users/encor/Desktop/健康银行/报表/style1.css",
+		"/C/Users/encor/Desktop/健康银行/报表/report1.html",
+		"/C/Users/encor/Desktop/沈天一/json/feed.json",
+		"/C/Users/encor/Desktop/沈天一/style.css",
+		"/C/Users/encor/Desktop/沈天一/index.html",
+		"/C/Users/encor/Desktop/沈天一/js/feed.js",
+		"/C/Users/encor/Desktop/H5页面涉及接口和demo示例.rtf",
+		"/C/Users/encor/Desktop/健康银行/报表/style2.css",
+		"/C/Users/encor/Desktop/Chart.js-master/samples/line.html",
+		"/C/Users/encor/Desktop/健康银行/报表/report2.html",
+		"/C/Users/encor/Desktop/健康银行/报表/report1 - 副本.html",
+		"/C/Users/encor/Desktop/健康银行/报表/custom-1.js",
+		"/C/Users/encor/Desktop/健康银行/report1.html",
+		"/C/MAMP/htdocs/custom.js",
+		"/C/MAMP/htdocs/author.html",
+		"/C/MAMP/htdocs/index.html",
+		"/C/MAMP/htdocs/single.html",
+		"/C/MAMP/htdocs/page-collection.html",
+		"/C/MAMP/htdocs/profile.html",
+		"/C/MAMP/htdocs/search.html",
+		"/C/MAMP/htdocs/single-topic.html",
+		"/C/MAMP/htdocs/page-new-post.html",
+		"/C/MAMP/htdocs/amazeui/css/app.css",
+		"/C/Users/encor/Desktop/js/medium-editor-insert-plugin.js",
+		"/C/MAMP/htdocs/amazeui/js/app.js",
+		"/C/MAMP/htdocs/css/app.css",
+		"/C/MAMP/htdocs/css/style-0.1.less",
+		"/C/Users/encor/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hero",
+			"新款智能健康手表集成了最新的心率检测传感器，心率检测更为精准。在开启心率检测的模式下，可一直保持心率监测的状态，并同步上传至健康银行云平台或通过蓝牙和短信的方式传输到手机APP端，可随时查看。为您的健康提供有效依据。",
+			"hover",
+			"80px",
+			"cb-font-stylesheet",
+			"fonts.googleapis.com",
+			" http://fonts.googleapis.com",
+			"wordpress",
+			"author",
+			"120px",
+			"5acfa0",
+			"68px",
+			"medium-insert-images",
+			"    position: relative;\n    width: 100%;\n    float: left;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>超声波骨密度报告单 | 健康银行</title>
+
+    <!-- Bootstrap -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+	<link href="report-1.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--这里是菜单-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="" class="back" src="img/back.png">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href='#' onclick="javascript:window.print()">预览并打印</a> </li>
+            <li><a href="#">下载</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <!--startprint-->
+    <div class="top">    	
+		    <div class="left">
+		          <img src="img/logo.jpg" alt="健康银行">
+		    </div>
+		    <div class="right">
+		          <p>
+		            地址：无锡市锡山区华夏中路12号<br/>
+		            电话：400 811 7078<br/>
+		            网址：www.healthbanca.com
+		          </p>
+		    </div>
+	    </div>
+    <div class="content">
+      <div class="container baogao">
+	      	<div class="inner">
+		        <h3 class="title">超声波骨密度报告单</h3>
+		         <p><b>报告编号：1982749084092</b><span class="pull-right">报告生成日期：<span id="data-checktime"></span></span></p>
+		        <hr>
+            <div class="row">
+              <div class="col-xs-12">
+                  <table  class="table table-hover table-condensed table-bordered">
+                    <thead>
+                      <tr>
+                        <td colspan="4">基本信息</td>
+                      </tr>
+                    </thead>
+                    <tbody class="odd">
+                      <tr>
+                        <td>姓名：王培娜</td>
+                        <td>性别：女</td>
+                        <td>年龄：22</td>
+                        <td>升高：162cm</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+                  <table  class="table table-hover table-condensed table-bordered">
+                    <thead>
+                      <tr>
+                        <td colspan="4">其它信息</td>
+                      </tr>
+                    </thead>
+                    <tbody class="odd">
+                      <tr>
+                       	<td >体重：<span id="data-weight"></span></td>
+		                <td>BMI：<span id="data-bmi"></span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+
+		        		
+	          	<hr>
+		        <div class="resault">
+		            <div class="left">
+		              <p><b>测试结果：</b></p>
+		              <div class="graphic">
+		                  <div class="s2">
+		                    <img src="img/s2.png">
+		                  </div>
+		                   <div class="s1">
+		                    <div id="point"></div>
+		                    <img class="bgbg" src="img/s1.jpg">
+		                  </div>
+		                   <div class="s3">
+		                    <img src="img/s3.png">
+		                  </div>
+		              </div>
+		            </div>
+		            <div class="right">
+		              <p>参考值范围：</p>
+		              <div class="text">
+		                T > -1,正常范围<br>
+		                -2.5 < T <= -1,骨质流失<br>
+		                T <= -2.5,骨质疏松
+		              </div>
+		            </div>
+		        </div>
+		        <hr>
+		        <table class="table">
+		            <tbody>
+		              <tr>
+		                <th><b>测试数值：</b></th>
+		                <th>Sos值：<span id="data-sos"></span></th>
+		                <th>T-值：<span id="data-t"></span></th>
+		                <th>Z-值：<span id="data-z"></span></th>
+		              </tr>
+		            </tbody>
+		        </table>
+		        <hr/>
+		        <p><b>测试结论：</b></p>
+		        <p id="data-suggestion"></p>
+	    	</div>
+    	</div>		
+    </div>
+    <!--endprint--> 
+	 <footer>本报告由健康银行提供技术支持</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript">
+    var checktime = "2011-03-02";//测试时间
+    var name = "王大锤";//名称
+    var age = 32;//年龄
+    var sex = "男";//性别
+    var height = 172+"cm";//身高
+    var weight = 62+"kg";//体重
+    var idcard = 12098344393;//编号
+    var bmi = 26.5;//BMI
+    var dataSos = 3885;//sos
+    var dataT = -2.0;//t
+    var dataZ = -1.7;//z
+    var suggestion = "为任意标签添加 .table 类可以为其赋予基本的样式 — 少量的内补（padding）和水平方向的分隔线。这种方式看起来很多余！？但是我们觉得，表格元素使用的很广泛，如果我们为其赋予默认样式可能会影响例如日历和日期选择之类的插件，所以我们选择将此样式独立出来。";//建议
+       
+        $(document).ready(function(){
+          $("#data-checktime").html(checktime);
+          $("#data-name").html(name);
+          $("#data-age").html(age);
+          $("#data-sex").html(sex);
+          $("#data-height").html(height);
+          $("#data-weight").html(weight);
+          $("#data-idcard").html(idcard);
+          $("#data-bmi").html(bmi);
+          $("#data-sos").html(dataSos);
+          $("#data-t").html(dataT);
+          $("#data-z").html(dataZ);
+          $("#data-suggestion").html(suggestion);
+
+          //图表绘制
+          var graphicWidth = $(".graphic .s1").width();
+          var graphicHeight = graphicWidth;
+          var xishu = 0.021;
+          var graphicMargin = graphicWidth*xishu;
+          var s2Height =  graphicWidth + graphicMargin + graphicMargin;
+          $(".graphic .s1").css("height",graphicHeight+"px");
+          $(".graphic .s2 img").css("height",s2Height+"px");
+          $(".graphic .s1").css("margin",graphicMargin+"px");
+          var s2Width =  $(".graphic .s2").width();
+          var s3Width =  $(".graphic .s3 img").css("width",s2Height+"px");
+          var s3Margin = $(".graphic .s3 img").css("margin-left",s2Width+"px");
+          // 获得数据点
+          var pointX = dataT; 
+          var pointY = age;
+          var basicX = -4.0;
+          // 计算数据点实际像素
+          var pointBottom = (pointX - basicX)/6*graphicHeight - 6;
+          $("#point").css("bottom",pointBottom+"px");
+          var pointLeft = (pointY - 20)/80*graphicHeight - 6;
+           $("#point").css("left",pointLeft+"px");
+        });
+    </script>
+</body>      

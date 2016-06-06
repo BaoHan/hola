@@ -1,0 +1,176 @@
+.baogao {
+    background: #fff;
+    padding: 60px 0 100px;
+    margin-top: 20px;
+}
+	.top{
+		display: none;
+	}
+	.top{
+padding: 0;
+margin: 0;
+margin-bottom: 20px;
+background: #333;
+}
+	.top .left{
+	border-bottom: 4px solid #71BA2B;
+	height: 48px;
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+.top .right{
+	border-bottom: 4px solid #00492C;
+	height: 50px;
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+.top .left img{
+	display: block;
+	height: 42px;
+	width: auto;
+	float: right;
+}
+.top .right p{
+	font-size: 6px;
+	line-height: 1.2;
+	margin-left: 8px;
+	font-weight: normal;
+	color: #aaa;
+}
+.title{
+text-align: center;
+font-weight: bolder;
+margin: 40px 0;
+font-family:  "PingHei",Hiragino Sans GB, Heiti SC, "微软雅黑", Verdana, sans-serif, SimHei, "黑体" !important;
+}
+h3{
+font-family:  "PingHei",Hiragino Sans GB, Heiti SC, "微软雅黑", Verdana, sans-serif, SimHei, "黑体" !important;	
+}
+.content1{
+	    margin: 0 -15px;
+	    margin-bottom: 40px;
+	    overflow: hidden;
+}
+.content1 li{
+	line-height: 2;
+}
+hr{
+	width: 100%;
+	float: left;
+}
+#jqstooltip{
+	display: none !important;
+}
+#sparkline{
+	border:1px solid #ddd;
+	background: #f5f5f5;
+	width: 100%;
+	margin: 20px 0;
+}
+@media print{
+	.baogao {
+	    padding: 30px 0 0px !important;
+	}
+	table{
+		font-weight: normal;
+		margin-bottom: 5px;
+	}
+	.content .title {
+	    margin: 10px 0px;
+	}
+	nav.navbar {
+		height: 0;
+		overflow: hidden;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	.top{
+		display: block;
+	
+	}
+	footer{
+		display: none;
+	}
+	.top .right p{
+		font-size: 12px;
+	}
+	.table>tbody>tr>td,.table>tbody>tr>th{
+		padding:2px !important;
+		font-size: 12px;
+	}
+	hr{display: none !important}
+	.col-sm-6{
+		width: 50%;
+		float: left;
+		margin: 0 0 5px 0 !important;
+	}
+	.col-sm-6 h3{
+		margin: 0px;
+	}
+	.col-sm-6 p{
+		margin: 0px;
+	}
+}
+
+.baogao {
+    background: #fff;
+    padding: 60px 0 100px;
+    margin-top: 20px;
+}
+h3{
+	font-size: 16px;
+}
+h3.title{
+	font-size: 24px;
+	text-align: center;
+}
+table td{
+	vertical-align:middle;
+}
+thead{
+	color: #fff;
+	background: #5fbb6c;
+	text-align: center;
+}
+thead tr:nth-child(2){
+	background: #e9f4fb;
+	color: #333;
+}
+tbody{
+	color: #666;
+}
+tbody.odd tr td:nth-child(odd){
+	background: #e9f4fb;
+	color: #333;
+}
+tbody.theFirst tr td:nth-child(1){
+	background: #e9f4fb;
+	color: #333;
+}
+
+@media screen and (max-width: 960px) {
+	.baogao{
+		margin: 0px;
+		padding: 10px;
+	}
+	.baogao h3{
+		font-size: 16px;
+		margin: 5px auto;
+	}
+	.resault .left {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+	}
+	.pull-right{
+		float: left !important;
+	}
+	.content .col-sm-6{
+		padding: 0;
+		margin-bottom: 40px;
+	}
+}

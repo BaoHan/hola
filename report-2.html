@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>心血管报告 | 健康银行</title>
+
+    <!-- Bootstrap -->
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+	  <link href="report-2.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--这里是菜单-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="" class="back" src="img/back.png">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href='#' onclick="javascript:window.print()">预览并打印</a> </li>
+            <li><a href="#">下载</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <!--startprint-->
+    <div class="top">    	
+		    <div class="left">
+		      <img src="img/logo.jpg" alt="健康银行">
+		    </div>
+		    <div class="right">
+		          <p>
+		            地址：无锡市锡山区华夏中路12号<br/>
+		            电话：400 811 7078<br/>
+		            网址：www.healthbanca.com
+		          </p>
+		    </div>
+	  </div>
+    <div class="content">
+      <div class="container baogao">
+	      <div class="inner">
+		      <h3 class="title">心血管功能检测报告</h3>
+		         <p><b>报告编号：1982749084092</b><span class="pull-right">报告生成日期：2016年10月20日</p>
+		        <hr>
+            <div class="row">
+              <div class="col-xs-12">
+                  <table  class="table table-hover table-condensed table-bordered">
+                    <thead>
+                      <tr>
+                        <td colspan="4">基本信息</td>
+                      </tr>
+                    </thead>
+                    <tbody class="odd">
+                      <tr>
+                        <td>姓名：王培娜</td>
+                        <td>性别：女</td>
+                        <td>年龄：22</td>
+                        <td>升高：162cm</td>
+                      </tr>
+                    </tbody>
+                  </table>
+          
+          <h3>各项分析结果</h3>
+          <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                    <th colspan="4">心脏功能</th>
+                    <th colspan="4">血管状态</th>
+                  </tr>
+            </thead>
+            <tbody>  
+              <tr>
+               <th>名称</th>
+               <th>实验值</th>
+               <th>参考范围</th>
+               <th>单位</th>
+               <th>参数名称</th>
+               <th>实验值</th>
+               <th>参考范围</th>
+               <th>单位</th>
+              </tr>
+              <tr>
+               <th>HR</th>
+               <th><span id="data-hr"></span></th>
+               <th>[60--100]</th>
+               <th>次/分</th>
+               <th>SBP</th>
+               <th><span id="data-sbp"></span></th>
+               <th>[90--130]</th>
+               <th>mmHg</th>
+              </tr>
+              <tr>
+               <th>ED</th>
+               <th><span id="data-hr"></span></th>
+               <th>[30%--45%]</th>
+               <th>--</th>
+               <th>DBP</th>
+               <th><span id="data-dbp"></span></th>
+               <th>[60--90]</th>
+               <th>mmHg</th>
+              </tr>
+              <tr>
+               <th>SPTI</th>
+               <th><span id="data-spti"></span></th>
+               <th>[1800--2500]</th>
+               <th>--</th>
+               <th>PP</th>
+               <th><span id="data-pp"></span></th>
+               <th>[30--45]</th>
+               <th>mmHg</th>
+              </tr>
+              <tr>
+               <th>DPTI</th>
+               <th><span id="data-dpti"></span></th>
+               <th>[2300--3500]</th>
+               <th>--</th>
+               <th>CAP</th>
+               <th><span id="data-cap"></span></th>
+               <th>[85--110]</th>
+               <th>mmHg</th>
+              </tr>
+              <tr>
+               <th>SEVR</th>
+               <th><span id="data-sevr"></span></th>
+               <th>[>1.0]</th>
+               <th>--</th>
+               <th>AI</th>
+               <th><span id="data-ai"></span></th>
+               <th>[<0.8]</th>
+               <th>--</th>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <div class="content">
+            <div class="col-sm-6">
+              <h3>诊断结果</h3>
+              <p>动脉弹性下降</p>
+            </div>
+            <div class="col-sm-6">
+              <h3>指导建议</h3>
+              <p>多进行有氧运动（如慢跑等）有益您的心血管健康。</p>
+            </div>
+            <div class="col-sm-6">
+              <h3>参数解释I</h3>
+              <ol>
+                <li>脉率（HR）：平均在75次／分左右（60-100次／分)</li>
+                <li>射血时间（ED）：心脏射血持续的时间，一般约为0.3秒，占心动周期的37.5％左右。短于正常时间时可能说明心脏没有能力泵出足够的血量；长于正常时间可能说明心脏不能充分舒张而吸入血液。 </li>
+                <li>左心负荷指数（SPTI）：表示左心室在收缩期遇到的阻力，是心肌细胞需氧量的度量标准。</li>
+                <li>心肌灌注指数（DPTI）：表示左心室在收缩期前遇到的阻力。是冠状动脉供氧量的度量标准。</li>
+                <li>心内膜下心肌活力率（SEVR）：衡量动脉系统满足心脏能量需求能力的一个指标。当这个比率降低时，意味着心脏能量储备低，人体承受体力活动的能力就降低。</li>
+              </ol>
+            </div>
+            <div class="col-sm-6">
+              <h3>参数解释II</h3>
+              <ol>
+                <li>收缩压（SBP）：亦称高压，成人连续三次测量收缩压＞140mmHg即可确诊为高血压。100~120mmHg为理想血压，130~140 mmHg称为临界高血压。 </li>
+                <li>舒张压（DBP）：亦称低压，连续三次测量舒张压>90mmHg即可确诊为高血压；70~80mmHg为理想血压。</li>
+                <li>脉压差（PP）：收缩压与舒张压之间的差值。正常范围是 30~45mmHg。</li>
+                <li>中心动脉压（CAP）：升主动脉根部收缩压。一般比收缩压低15mmHg。该值越高心脏负荷越大。</li>
+                <li>增长指数（AI）：反映血管的僵硬度，是终末期肾病病人心血管病发病率和和死亡率的独立预测因子，与心血管危险的增高、左室肥厚、舒张期功能紊乱显著相关。</li>
+              </ol>
+            </div>
+          </div>
+        </div>  
+	    </div>		
+    </div>
+    <!--endprint--> 
+	  <footer>本报告由健康银行提供技术支持</footer>
+       
+</body>      
